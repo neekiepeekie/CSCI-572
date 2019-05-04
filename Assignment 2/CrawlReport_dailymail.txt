@@ -1,0 +1,38 @@
+Name: Neekita Salvankar
+News site crawled: Daily Mail
+Some insights:
+1. The number of fetches attempted is significantly low(5746) because the seed website is small.
+2. File sizes count = 5474 , which is equal to content count = 5474. This value is lower than number of 200 URL code because the content type of some files may not be supported by our program and some may be unknown.
+3. # of fetches attempted(5746) = # of fetches succeeded(5744) + # of fetches failed or aborted(2)
+4. # of fetches succeeded = URLs with status code 200 = 5744
+5. No of unique URLs extracted(86356) = No of unique URLs within News Site(17425)+ No of unique URLs outside News Site (68931);
+Fetch Statistics
+
+# of fetches attempted : 5746
+# of fetches succeeded : 5744
+# of fetches failed or aborted : 2
+
+
+Outgoing URLs
+
+Total URLSs extracted : 4311036
+# unique URLs extracted : 86356
+# unique URLs within News Site : 17425
+# unique URLs outside News Site : 68931
+
+Status Codes :
+
+200 : 5744
+302 : 2
+
+File Sizes   :
+
+< 1KB        : 0
+1KB ~ <10KB  : 0
+10KB ~ <100KB: 0
+100KB ~ <1MB : 5474
+>= 1MB       : 0
+
+Content Types :
+
+text/html : 5474
